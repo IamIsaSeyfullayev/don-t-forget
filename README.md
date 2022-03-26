@@ -29,7 +29,7 @@ and ls
 
 python -m SimpleHHTPServer 80
 
-chmod +x exploit for giving a permission
+chmod +x exploit for giving a permission(x using execute)
 
 msfconsole
 set rpath /cgi-bin/user.sh
