@@ -6,6 +6,8 @@ next type id next ls or pwd
 nc -e /bin/bash host and port when we enter system 
 nmap:
 nmap -sS -A -v -p --min-rate 99999 host 
+nmap -p- -sV port scanning ant its version
+nmap -sV -sC -v From your scans, what version is FTP running on the target?
 
 when the site open u must use /robots.txt
 /cgi-bin/
@@ -41,3 +43,8 @@ wget for upload shell
 sudo -u scriptmanager /bib/bash this means u get a scriptmanager rank
 
 next time ls -la shows to us permission  
+
+ 
+ 
+ 
+smbclient -L \\\\172.16.27.132 -U 'administrator' What is the tool we use to connect to SMB shares from our Linux distribution? 
