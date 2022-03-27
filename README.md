@@ -47,4 +47,3 @@ next time ls -la shows to us permission
  
  
  
-smbclient -L \\\\172.16.27.132 -U 'administrator' What is the tool we use to connect to SMB shares from our Linux distribution? 
