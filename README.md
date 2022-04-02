@@ -8,6 +8,7 @@ nmap:
 nmap -sS -A -v -p --min-rate 99999 host 
 nmap -p- -sV port scanning ant its version
 nmap -sV -sC -v From your scans, what version is FTP running on the target?
+nmap -sS -p- -Pn --min-rate host ip for            to find all open ports
 
 when the site open u must use /robots.txt
 /cgi-bin/
@@ -38,11 +39,19 @@ set rpath /cgi-bin/user.sh
 
 sudo -l say to us u can run this commands
 
+
+
 wget for upload shell
 
 sudo -u scriptmanager /bib/bash this means u get a scriptmanager rank
 
 next time ls -la shows to us permission  
+
+
+dnszone using:
+dif -t NS(name server)
+
+nslookup for finfing domain
 
  
  
