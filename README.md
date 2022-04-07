@@ -9,6 +9,9 @@ nmap -sS -A -v -p --min-rate 99999 host
 nmap -p- -sV port scanning ant its version
 nmap -sV -sC -v From your scans, what version is FTP running on the target?
 nmap -sS -p- -Pn --min-rate host ip for            to find all open ports
+nmap -sC -sV -p htb
+ nmap --script vuln -A 10.129.123.49 for finding all vulnerablitie
+
 
 when the site open u must use /robots.txt
 /cgi-bin/
@@ -16,6 +19,8 @@ when the site open u must use /robots.txt
 
 gobuster:
 gobuster dir -u http://host -w /usr/share/worldlists/dirbuster/directory-list-2.3-medium.txt -x .ph,.txt,.conf,.doc,.sh
+gobuster  dir -u  http://10.129.123.49 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -o gobuster.log -t 50
+
 
 nikto -h host
 
@@ -39,6 +44,7 @@ set rpath /cgi-bin/user.sh
 
 sudo -l say to us u can run this commands
 
+xkcd for explain vuln with nice comic
 
 
 wget for upload shell
@@ -56,6 +62,9 @@ nslookup for finding nameserver
 
 check the command injection
 
- 
+ python upgrade shell       python -c 'import pty; pty.spawn("/bin/bash")'
  
  ctrl u (for inspect source)
+ 
+ ubuntu apache  2.2.22 precision for finding last ubuntu update
+ and next gonna here  from mozilla: ubuntu release precise
