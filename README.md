@@ -47,6 +47,10 @@ sudo -l say to us u can run this commands
 xkcd for explain vuln with nice comic
 
 
+
+wpscan --url http://10.129.96.68 -e u,p --plugins-detection aggressive 
+
+
 wget for upload shell
 
 sudo -u scriptmanager /bib/bash this means u get a scriptmanager rank
