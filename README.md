@@ -80,3 +80,9 @@ check the command injection
  
  ubuntu apache  2.2.22 precision for finding last ubuntu update
  and next gonna here  from mozilla: ubuntu release precise
+ 
+ 
+cURL
+cURL is a command-line tool to transfer data to or from a server, using any of the supported protocols (HTTP, FTP, IMAP, POP3, SCP, SFTP, SMTP, TFTP, TELNET, LDAP, or FILE). curl is powered by Libcurl. This tool is preferred for automation since it is designed to work without user interaction. curl can transfer multiple files at once. 
+
+curl -X POST -F `file=index.php(it s changgable and it gives us a databse)(for configuration root    /var/www/phpmy/config.php.inc)` http://192.168.1.1(IP adres of ur page)/test.php(it s subdomain for this box)
