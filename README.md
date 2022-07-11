@@ -66,6 +66,14 @@ sudo -u scriptmanager /bib/bash this means u get a scriptmanager rank
 next time ls -la shows to us permission  
 
 
+
+
+ngrok, plink,bitvise,chisel for connectintions 
+
+
+
+
+
 dnszone using:
 dig -t NS(name server)
 dig axfr @nameserver nameserver
